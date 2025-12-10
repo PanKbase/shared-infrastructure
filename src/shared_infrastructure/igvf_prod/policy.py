@@ -12,20 +12,20 @@ class BucketAccessPolicies(Construct):
         self.download_igvf_files_policy = ManagedPolicy.from_managed_policy_arn(
             self,
             'DownloadIgvfFilesPolicy',
-            'arn:aws:iam::495599754696:policy/download-pankbase-files',
+            'arn:aws:iam::654654139991:policy/download-pankbase-files',
         )
         self.upload_igvf_files_policy = ManagedPolicy.from_managed_policy_arn(
             self,
             'UploadIgvfFilesPolicy',
-            'arn:aws:iam::495599754696:policy/upload-pankbase-files'
+            'arn:aws:iam::654654139991:policy/upload-pankbase-files'
         )
         self.download_igvf_restricted_files_policy = ManagedPolicy.from_managed_policy_arn(
             self,
             'DownloadIgvfRestrictedFilesPolicy',
-            'arn:aws:iam::495599754696:policy/download-pankbase-restricted-files',
+            'arn:aws:iam::654654139991:policy/download-pankbase-restricted-files',
         )
         self.upload_igvf_restricted_files_policy = ManagedPolicy.from_managed_policy_arn(
             self,
             'UploadIgvfRestrictedFilesPolicy',
-            'arn:aws:iam::495599754696:policy/upload-pankbase-restricted-files',
+            'arn:aws:iam::654654139991:policy/upload-pankbase-restricted-files',
         )

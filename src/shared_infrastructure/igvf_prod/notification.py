@@ -14,10 +14,10 @@ class Notification(Construct):
         self.encode_dcc_chatbot = SlackChannelConfiguration.from_slack_channel_configuration_arn(
             self,
             'pankbase-production-chatbot',
-            'arn:aws:chatbot::495599754696:chat-configuration/slack-channel/aws-pankbase-prod',
+            'arn:aws:chatbot::654654139991:chat-configuration/slack-channel/aws-pankbase-prod-2026',
         )
         self.alarm_notification_topic = Topic.from_topic_arn(
             self,
             'AlarmNotificationTopic',
-            topic_arn='arn:aws:sns:us-west-2:565393070554:NotificationStack-AlarmNotificationTopic58BFACC9-LxpkntzBTvOe'
+            topic_arn='arn:aws:sns:us-west-2:654654139991:NotificationStack-AwsIgvfProdChannelAlarmNotificationTopicD48E2E88-b32LT4pdfQQO'
         )

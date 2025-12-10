@@ -12,5 +12,5 @@ class Network(Construct):
         self.vpc = Vpc.from_lookup(
             self,
             'Vpc',
-            vpc_id='vpc-0de5a343c73c9082d'
+            vpc_id='vpc-087ef239aefa4a4ad'
         )

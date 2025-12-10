@@ -9,7 +9,7 @@ class CodeStarConnection(Construct):
         super().__init__(scope, construct_id, **kwargs)
         self.arn = (
             'arn:aws:codeconnections:'
-            'us-west-2:495599754696:'
+            'us-west-2:654654139991:'
             'connection/84a05bee-a183-4a6e-b9df-44d783e56445'
         )
 
