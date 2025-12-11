@@ -10,7 +10,5 @@ class CodeStarConnection(Construct):
         self.arn = (
             'arn:aws:codeconnections:'
             'us-west-2:654654139991:'
-            'connection/84a05bee-a183-4a6e-b9df-44d783e56445'
+            'connection/44fed36e-6dc9-480e-a575-5a9b29a2cc20'
         )
-
-        
